@@ -1,0 +1,57 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# Model files
+models/*.h5
+models/*.pkl
+models/*.pth
+models/*.ckpt
+checkpoints/
+
+# Artifacts
+logs/
+tensorboard_logs/
+runs/
+
+outputs/
+
+.env
+config/local_config.yaml
+
+# IDE
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache
+.cache/
+.pytest_cache/
