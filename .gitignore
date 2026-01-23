@@ -55,3 +55,6 @@ config/local_config.yaml
 # Cache
 .cache/
 .pytest_cache/
+
+# Private notes
+notes/
