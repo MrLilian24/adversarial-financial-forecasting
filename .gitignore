@@ -58,3 +58,4 @@ config/local_config.yaml
 
 # Private notes
 notes/
+courses/
